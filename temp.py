@@ -4,7 +4,7 @@ from time import sleep
 print("프로젝트 파일 작성의 모범 답안입니다.")
 
 def process_data(data):
-    print("1단계: 데이터 전처리 함수를 실행합니다. ")
+    print("1단계: 데이터 전처리 함수를 실행합니다..")
     modified_data = "3단계: " + data + "가 수정 완료 되었습니다."
     sleep(3)
     print("2단계: 데이터 전처리가 끝났습니다.")
@@ -18,3 +18,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    
